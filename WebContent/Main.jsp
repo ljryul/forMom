@@ -24,7 +24,7 @@
     <th class="tg-nrix">exit</th>
     <th class="tg-nrix">Reservations</th>
     <th class="tg-nrix">Front Desk</th>
-    <th class="tg-djtu"><a href="Housekeeping.jsp" onclick="window.open(this.href, '_blank', 'width=1500px,height=560px,toolbars=no,scrollbars=no'); return false;">Cashiering</a><br></th>
+    <th class="tg-djtu"><a href="Housekeeping2.jsp" onclick="window.open(this.href, '_blank', 'width=1500px,height=600px,toolbars=no,scrollbars=no'); return false;">Cashiering</a><br></th>
     <th class="tg-djtu"><a href="Operator.jsp" onclick="window.open(this.href, '_blank', 'width=1200px,height=500px,toolbars=no,scrollbars=no'); return false;">RoomsManagement</a></th>
     <th class="tg-nrix">AR</th>
     <th class="tg-nrix">Commissions</th>

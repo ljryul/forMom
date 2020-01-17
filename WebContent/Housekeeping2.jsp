@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>Housekeeping</title>
+<title>Housekeeping2</title>
 </head>
 <body>
 	<style type="text/css">
@@ -54,7 +54,7 @@
 
 .tg .tg-c3ow {
 	border-color: inherit;
-	text-align: center;
+	text-align: left;
 	vertical-align: top
 }
 
@@ -84,7 +84,7 @@
 </style>
 	<table class="tg">
 		<tr>
-<!-- 			<th class="tg-lboi">blueBox</th> -->
+			<!-- 			<th class="tg-lboi">blueBox</th> -->
 			<th bgcolor="skyblue"></th>
 			<th class="tg-lboi"><input type="checkbox" name="Rm_Status"
 				value="Clean">Clean</th>
@@ -208,20 +208,20 @@
 			<td class="tg-llyw">Room Type</td>
 			<td class="tg-llyw"><select name="Room_Type">
 					<option value=""></option>
-					<option value="single">single</option>
-					<option value="twin">twin</option>
-					<option value="double">double</option>
-					<option value="king">king</option>
+					<option value="ST">ST</option>
+					<option value="KO">KO</option>
+					<option value="SK">SK</option>
+					<option value="CL">CL</option>
 			</select></td>
 			<td class="tg-llyw"></td>
 			<td class="tg-llyw">Room Class</td>
 			<td class="tg-llyw"><select name="Room_Class">
 					<option value=""></option>
-					<option value="standard">standard</option>
-					<option value="business">business</option>
-					<option value="superieur">superieur</option>
-					<option value="deluxe">deluxe</option>
-					<option value="suite">suite</option>
+					<option value="NFL">NFL</option>
+<!-- 					<option value="business">business</option> -->
+<!-- 					<option value="superieur">superieur</option> -->
+<!-- 					<option value="deluxe">deluxe</option> -->
+<!-- 					<option value="suite">suite</option> -->
 			</select></td>
 			<td class="tg-hfk9"></td>
 			<td class="tg-0lax"></td>
@@ -229,179 +229,123 @@
 		<tr>
 			<td class="tg-c3ow" colspan="14">Result_Table
 
-				<style type="text/css">
-.tg {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+				<div style="height:250px; overflow:auto">
+					<table>
+						<colgroup>
+							<col width="2%" />
+							<col width="5%" />
+							<col width="8%" />
+							<col width="10%" />
+							<col width="8%" />
+							<col width="13%" />
+							<col width="5%" />
+							<col width="10%" />
+							<col width="10%" />
+							<col width="*" />
+						</colgroup>
 
-.tg td {
-	font-family: Arial, sans-serif;
-	font-size: 14px;
-	padding: 10px 5px;
-	border-style: solid;
-	border-width: 1px;
-	overflow: hidden;
-	word-break: normal;
-	border-color: black;
-}
-
-.tg th {
-	font-family: Arial, sans-serif;
-	font-size: 14px;
-	font-weight: normal;
-	padding: 10px 5px;
-	border-style: solid;
-	border-width: 1px;
-	overflow: hidden;
-	word-break: normal;
-	border-color: black;
-}
-
-.tg .tg-cly1 {
-	text-align: left;
-	vertical-align: middle
-}
-
-.tg .tg-kftd {
-	background-color: #efefef;
-	text-align: left;
-	vertical-align: top
-}
-
-.tg .tg-gg7l {
-	background-color: #efefef;
-	text-align: left;
-	vertical-align: middle
-}
-
-.tg .tg-0lax {
-	text-align: left;
-	vertical-align: top
-}
-</style>
-				<table class="tg">
-					<tr>
-						<th class="tg-gg7l">X</th>
-						<th class="tg-gg7l">Room</th>
-						<th class="tg-gg7l">Rm. Type</th>
-						<th class="tg-gg7l">Room Status</th>
-						<th class="tg-kftd">FO Status</th>
-						<th class="tg-kftd">Reservation Status</th>
-						<th class="tg-kftd">Floor</th>
-						<th class="tg-kftd">Room Class</th>
-						<th class="tg-kftd">AM/PM</th>
-						<th class="tg-kftd">Features</th>
-					</tr>
-					<tr>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-					</tr>
-					<tr>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-					</tr>
-					<tr>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-					</tr>
-					<tr>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-					</tr>
-					<tr>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-					</tr>
-					<tr>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-					</tr>
-					<tr>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-					</tr>
-					<tr>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-					</tr>
-					<tr>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-						<td class="tg-0lax"></td>
-					</tr>
-				</table>
+						<thead>
+							<tr>
+								<th>X</th>
+								<td>Room</td>
+								<td>Rm. Type</td>
+								<td>Room Status</td>
+								<td>FO Status</td>
+								<td>Reservation Status</td>
+								<td>Floor</td>
+								<td>Room Class</td>
+								<td>AM/PM</td>
+								<td>Features</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th>1</th>
+								<td>0510</td>
+								<td>ST</td>
+								<td bgcolor="red">Dirty</td>
+								<td>Vacant</td>
+								<td>Departed</td>
+								<td>05</td>
+								<td>NFL</td>
+								<td>5/5</td>
+								<td>FCU</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td>0513</td>
+								<td>SK</td>
+								<td bgcolor="red">Dirty</td>
+								<td>Occupied</td>
+								<td>Stay Over</td>
+								<td>05</td>
+								<td>NFL</td>
+								<td>5/5</td>
+								<td>FCU</td>
+							</tr>
+							<tr>
+								<th>3</th>
+								<td>0516</td>
+								<td>ST</td>
+								<td bgcolor="red">Dirty</td>
+								<td>Vacant</td>
+								<td>Arrived</td>
+								<td>05</td>
+								<td>NFL</td>
+								<td>5/5</td>
+								<td>FCU</td>
+							</tr>
+							<tr>
+								<th>4</th>
+								<td>0517</td>
+								<td>ST</td>
+								<td bgcolor="red">Dirty</td>
+								<td>Vacant</td>
+								<td>Arrived</td>
+								<td>05</td>
+								<td>NFL</td>
+								<td>5/5</td>
+								<td>FCU</td>
+							</tr>
+							<tr>
+								<th>5</th>
+								<td>0518</td>
+								<td>ST</td>
+								<td bgcolor="lime">Inspected</td>
+								<td>Vacant</td>
+								<td>Not Reserved</td>
+								<td>05</td>
+								<td>NFL</td>
+								<td>5/5</td>
+								<td>FCU</td>
+							</tr>
+							<tr>
+								<th>6</th>
+								<td>0523</td>
+								<td>SK</td>
+								<td bgcolor="red">Dirty</td>
+								<td>Occupied</td>
+								<td>Departed</td>
+								<td>05</td>
+								<td>NFL</td>
+								<td>5/5</td>
+								<td>FCU</td>
+							</tr>
+							<tr>
+								<th>7</th>
+								<td>0526</td>
+								<td>CL</td>
+								<td bgcolor="skyblue">Clean</td>
+								<td>Occupied</td>
+								<td>Departed</td>
+								<td>05</td>
+								<td>NFL</td>
+								<td>5/5</td>
+								<td>FCU</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 
 			</td>
 			<td class="tg-hfk9"></td>
@@ -419,8 +363,8 @@
 
 
 	<script>
-		function search(){
-			
+		function search() {
+
 			alert('찾기');
 		}
 		function check_all() {
